@@ -55,15 +55,9 @@ class byzak implements Runnable {
 
 public class FullLoad  extends Thread  {
 	
-	public static byzak mThing;
-	
 	public static void main(String[] args) {
 		FullLoad myclass = new FullLoad();
-		
-		
-		//byzak mThing;	
-        
-		
+		        
 		for (Integer m = 1; m < 50; m++) {
 		
 			Thread myThready = new Thread(new byzak(m));
