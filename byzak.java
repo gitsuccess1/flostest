@@ -13,7 +13,7 @@ import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.nio.channels.FileChannel;
-
+import sekas;
 import static java.nio.file.LinkOption.NOFOLLOW_LINKS;
 
 
@@ -21,8 +21,8 @@ class byzak implements Runnable {
 	
 	private Integer CoreNum;
 	
-	public byzak(Integer jk) {
-		CoreNum = jk;
+	public byzak(Integer jkj) {
+		CoreNum = jkj;
 	}
 	
 	public void run() {
